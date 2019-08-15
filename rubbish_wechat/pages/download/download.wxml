@@ -1,0 +1,19 @@
+<view class="container">
+  <view class="content">
+    <image src='../../images/down02.jpg' mode="widthFix"></image>
+  </view>
+  <button type="primary" bindtap='bindImage' data-imgsurl='{{imageurl}}/down02.jpg'> 保存到相册 </button>
+  <view class="content">
+    <image src='../../images/down01.jpg' mode="widthFix"></image>
+  </view>
+  <button type="primary" bindtap='bindImage' data-imgsurl='{{imageurl}}/down01.jpg'> 保存到相册 </button>
+  <view class='footer'>
+    本系统仅供参考，具体分类要求以属地专业管理部门为准。
+    <text class="dev_own" catchtap='changeJoeling'>技术支持：袁小威</text>
+  </view>
+</view>
+<view class='share_btn'>
+  <image src='../../images/icon/guide_tag.png' mode="widthFix"></image>
+  <text>分享</text>
+</view>
+<button open-type='share' class='share_btyn'></button>

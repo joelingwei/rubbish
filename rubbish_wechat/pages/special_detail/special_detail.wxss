@@ -1,0 +1,42 @@
+.containers {
+  width: 100%;
+}
+
+.content {
+  font-size: 35rpx;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius: 10rpx;
+  /* width: 95%; */
+  padding: 20rpx;
+  margin: 20rpx auto;
+}
+
+.spec_name {
+  padding: 40rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1rpx solid gainsboro;
+}
+.spec_name:last-child{
+  border-bottom:none;
+}
+.spec_name image {
+  display: flex;
+  width: 45rpx;
+  height: 30rpx;
+}
+
+.spec_left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.spec_left image {
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 30rpx;
+}

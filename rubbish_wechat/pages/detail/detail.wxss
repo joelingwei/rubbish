@@ -1,0 +1,46 @@
+.content {
+  width: 80%;
+  margin: 20rpx auto 10rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  padding: 30rpx;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  margin: 30rpx 0 50rpx;
+  font-size: 40rpx;
+}
+
+.titles {
+  text-align: center;
+  font-weight: bold;
+  margin: 30rpx 0 50rpx;
+  font-size: 30rpx;
+}
+
+.c_image {
+  width: 30%;
+  margin: 30rpx auto;
+  display: flex;
+}
+
+.desc {
+  font-size: 30rpx;
+  display: flex;
+  margin-bottom: 50rpx;
+}
+
+.sm_title {
+  font-size: 35rpx;
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+
+.sm_remark {
+  font-size: 35rpx;
+  display: flex;
+  margin: 20rpx 0;
+}
