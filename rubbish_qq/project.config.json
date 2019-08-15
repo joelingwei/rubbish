@@ -1,0 +1,61 @@
+{
+	"projectid": "1109683118_rubbish",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"remoteDebugLogEnable": false,
+		"sourcemapDisabled": true,
+		"useAlphaLib": true,
+		"nodeModules": true,
+		"uglifyFileName": true
+	},
+	"compileType": "miniprogram",
+	"createTime": 1563870968200,
+	"accessTime": 1563870968200,
+	"packOptions": {
+		"ignore": []
+	},
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"qqappid": "888888888",
+	"projectname": "rubbish",
+	"scripts": {
+		"beforeCompile": "",
+		"beforePreview": "",
+		"beforeUpload": ""
+	},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "1",
+					"pathName": "pages/examination/examination",
+					"query": "",
+					"scene": ""
+				}
+			]
+		}
+	}
+}

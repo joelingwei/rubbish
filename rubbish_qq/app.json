@@ -1,0 +1,57 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/examination/examination",
+    "pages/location/location",
+    "pages/download/download",
+    "pages/detail/detail",
+    "pages/about/about",
+    "pages/special/special",
+    "pages/special_detail/special_detail"
+  ],
+  "window":{
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "垃圾分类引导指南",
+    "navigationBarTextStyle": "black"
+  },
+    "navigateToMiniProgramAppIdList": [
+    "1109607179"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于垃圾分类城市区分"
+    }
+  },
+  "tabBar": {
+    "color": "#515151",
+	"backgroundColor": "#efefef",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "指南",
+        "iconPath": "/images/icon/guide.png",
+        "selectedIconPath": "/images/icon/guide_tag.png"
+      },
+      {
+        "pagePath": "pages/examination/examination",
+        "text": "测试",
+        "iconPath": "/images/icon/test.png",
+        "selectedIconPath": "/images/icon/test_tag.png"
+      },
+      {
+        "pagePath": "pages/special/special",
+        "text": "专题",
+        "iconPath": "/images/icon/special.png",
+        "selectedIconPath": "/images/icon/special_tag.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "更多",
+        "iconPath": "/images/icon/more.png",
+        "selectedIconPath": "/images/icon/more_tag.png"
+      }
+    ]
+  }
+}

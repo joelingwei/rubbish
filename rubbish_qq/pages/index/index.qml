@@ -1,0 +1,67 @@
+<view class='nav-wrap' style='height: {{height*2 + 30}}px;'>
+  <view class='nav-title' style='line-height: {{height*2 + 44}}px;'>垃圾分类引导指南</view>
+  <view style='display: flex; justify-content: space-around;flex-direction: column'>
+    <view class='nav-capsule' style='height: {{height*2 + 44}}px;'>
+      <view bindtap='bindLocation' style="display: flex;flex-direction: row;align-items: center;">
+        <text style="font-size: 30rpx;">{{name}}</text>
+        <image src='../../images/location.png' mode='aspectFill' class='back-pre'></image>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="container" style='margin-top: {{height*2+30}}px'>
+  <view class="section">
+    <input class='search_ipt' bindfocus="bindReplaceInput" bindinput="bindReplaceInput" placeholder="请输入正确名称（包括材质）" value="{{keywords}}"/>
+    <view class="search_butt">
+      <view class='serac_img' bindtap="bindImageSerach">
+        <image src="../../images/creame.png" mode="widthFix"></image>
+        <text>拍照识别</text>
+      </view>
+      <view class='serac_img' bindtap="startRecord" catch:longpress="handleRecordStart" catch:touchmove="handleTouchMove" catch:touchend="handleRecordStop">
+        <image src='../../images/{{audios.img}}.png' mode="widthFix"></image>
+        <text>{{audios.name}}</text>
+      </view>
+      <!-- <view class='serac_img' bindtap="stopRecord" wx:if="{{hasRecord == true}}">
+        <image src='../../images/stop.png' mode="widthFix"></image>
+        <text>录音中</text>
+      </view> -->
+      <view class='serac_img'>
+        <image src='../../images/share_index.png' mode="widthFix"></image>
+        <text>分享朋友</text>
+        <button open-type='share' class='share_btyn'></button>
+      </view>
+      <view class='serac_img' bindtap="bindDownLoad">
+        <image src='../../images/download.png' mode="widthFix"></image>
+        <text>图谱下载</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='contents' qq:if="{{is_show == false}}">
+    <text class='title'>热门搜索</text>
+    <view class='hot_list'>
+      <text qq:for="{{hot_list}}" qq:key="{{item}}" data-rid='{{item.rid}}' bindtap='bindNameDeatail' data-se_name="{{item.name}}" data-seah_name='{{item.name}}'>{{item.name}}</text>
+    </view>
+  </view>
+  <view class='search_list' qq:if="{{is_show == true}}">
+    <view class='search_item' qq:for="{{detail}}" qq:key="{{item}}" data-rid="{{item.rid}}" bindtap='bindNameDeatail' data-se_name="{{item.name}}" data-seah_name='{{seah_name}}'>
+        <view class='ser_name'>{{item.name}}</view>
+        <view class='ser_name_detail'>{{item.name_details}}</view>
+    </view>
+  </view>
+  <view class="content"  qq:if="{{is_show == false}}">
+    <view class='rubbish' qq:for="{{rubbish_list}}" qq:for-index="idx" qq:key="{{item}}">
+      <image src='../../images/{{item.name_sx}}.png' bindtap="changeDetail" data-rid="{{idx+1}}" mode="widthFix"></image>
+    </view>
+    <view class='desc'>
+      我们每个人都是地球上的一份子，保护地球村，从日常垃圾分类做起！
+    </view>
+  </view>
+  <view class='tips'>
+    <icon type="warn" size="15" color='red'/>
+    <text class='tips_txt'>产生生活垃圾的个人是生活垃圾分类投放的责任主体，应将生活垃圾分别投放至相应的收集容器哟~</text>
+  </view>
+    <ad unit-id="d3e2033b8d80b79e34f1e0d403de9732"></ad>
+  <view class='footer'>本系统仅供参考，具体分类要求以属地专业管理部门为准。<text class="dev_own" catchtap='changeJoeling'>技术支持：袁小威</text></view>
+
+</view>

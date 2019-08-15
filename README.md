@@ -21,7 +21,24 @@ config.js —— 项目配置文件（包含Api接口host部分）
 - 百度小程序：[百度开发者工具](https://smartprogram.baidu.com/docs/introduction/tool/)
 
 ### 项目截图
-
+![home](https://github.com/joelingwei/rubbish/blob/master/images/01.png)
+![detail](https://github.com/joelingwei/rubbish/blob/master/images/02.png)
+![examination](https://github.com/joelingwei/rubbish/blob/master/images/03.jpg)
+![special](https://github.com/joelingwei/rubbish/blob/master/images/04.jpg)
+![download](https://github.com/joelingwei/rubbish/blob/master/images/05.png)
+![about](https://github.com/joelingwei/rubbish/blob/master/images/06.png)
 
 ### 欢迎扫码体验
+![wechat](https://github.com/joelingwei/rubbish/blob/master/images/wechat.jpg)
+![qq](https://github.com/joelingwei/rubbish/blob/master/images/qq.jpg)
+![alipay](https://github.com/joelingwei/rubbish/blob/master/images/alipay.jpg)
 
+### 关于作者
+袁小威，汉纸，爱文字、爱音乐的90后伪文艺程序猿一枚，乐于分享一些个人开发之路上踩的各种坑，只为后来人更好的行走。 PHP3年+开发经验，熟悉ThinkPHP和laravel框架，有微信公众号第三方平台、微信公众号、微信小程序等开发经验，以及其他php相关开发经验（如支付宝，微信，翼支付等支付功能对接开发，api接口开发，网站前后端开发等）。
+
+人博客地址：https://www.yxiaowei.com
+
+![博客小程序](https://github.com/joelingwei/rubbish/blob/master/images/wx_rotine.jpg)
+
+### 写在最后
+有不当之处欢迎大家与我反馈。反馈邮箱：yuanwei@yxiaowei.com
