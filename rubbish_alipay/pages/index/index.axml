@@ -1,0 +1,56 @@
+<favorite>收藏小程序，下次使用更方便</favorite>
+<view class="container">
+  <view class="section">
+    <input class='search_ipt' onFocus="bindReplaceInput" onInput="bindReplaceInput" placeholder="请输入正确名称（包括材质）" value="{{keywords}}"/>
+    <view class="search_butt">
+      <view class='serac_img' catchTap="bindImageSerach">
+        <image src="../../images/creame.png" mode="widthFix"></image>
+        <text>拍照识别</text>
+      </view>
+      <view class='serac_img' catchTap="startRecord" a:if="{{hasRecord == false}}">
+        <image src='../../images/voice.png' mode="widthFix"></image>
+        <text>语音查询</text>
+      </view>
+      <view class='serac_img' catchTap="stopRecord" a:if="{{hasRecord == true}}">
+        <image src='../../images/stop.png' mode="widthFix"></image>
+        <text>录音中</text>
+      </view>
+      <view class='serac_img'>
+        <image src='../../images/share_index.png' mode="widthFix"></image>
+        <text>分享朋友</text>
+        <button open-type='share' class='share_btyn'></button>
+      </view>
+      <view class='serac_img' catchTap="bindDownLoad">
+        <image src='../../images/download.png' mode="widthFix"></image>
+        <text>图谱下载</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='contents' a:if="{{is_show == false}}">
+    <text class='title'>热门搜索</text>
+    <view class='hot_list'>
+      <text a:for="{{hot_list}}" a:key="{{item}}" data-rid='{{item.rid}}' catchTap='bindNameDeatail' data-se_name="{{item.name}}" data-seah_name='{{item.name}}'>{{item.name}}</text>
+    </view>
+  </view>
+  <view class='search_list' a:if="{{is_show == true}}">
+    <view class='search_item' a:for="{{detail}}" a:key="{{item}}" data-rid="{{item.rid}}" catchTap='bindNameDeatail' data-se_name="{{item.name}}" data-seah_name='{{seah_name}}'>
+        <view class='ser_name'>{{item.name}}</view>
+        <view class='ser_name_detail'>{{item.name_details}}</view>
+    </view>
+  </view>
+  <view class="content"  a:if="{{is_show == false}}">
+    <view class='rubbish' a:for="{{rubbish_list}}" a:for-index="idx" a:key="{{item}}" catchTap="changeDetail" data-rid="{{idx+1}}">
+      <image src='../../images/{{item.name_sx}}.png' mode="widthFix"></image>
+    </view>
+    <view class='desc'>
+      我们每个人都是地球上的一份子，保护地球村，从日常垃圾分类做起！
+    </view>
+  </view>
+  <view class='tips'>
+    <icon type="warn" size="15" color='red'/>
+    <text class='tips_txt'>产生生活垃圾的个人是生活垃圾分类投放的责任主体，应将生活垃圾分别投放至相应的收集容器哟~</text>
+  </view>
+  <view class='footer'>本系统仅供参考，具体分类要求以属地专业管理部门为准。</view>
+</view>
+

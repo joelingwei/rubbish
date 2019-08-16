@@ -1,0 +1,23 @@
+<favorite>收藏小程序，下次使用更方便</favorite>
+<view class="container">
+  <view class='content'>
+    <view class='titles'>{{searec_name}}</view>
+    <view class='title'><text a:if="{{searec_name}}">属于</text>{{content.name}}</view>
+    <image class="c_image" src='../../images/{{content.pic}}.png' mode="widthFix"></image>
+    <text class='desc'>{{content.remark}}</text>
+    <text class='sm_title'>投放指导</text>
+    <text class='sm_remark' a:for='{{content.remarks}}' a:key="{{item}}">{{item}}</text>
+  </view>
+  <view class='tips' a:if="{{content.tips}}">
+    <icon type="warn" size="15" color='red' />
+    <text class='tips_txt'>{{content.tips}}</text>
+  </view>
+  <view class='footer'>
+    本系统仅供参考，具体分类要求以属地专业管理部门为准。
+  </view>
+</view>
+<view class='share_btn'>
+  <image src='../../images/icon/guide_tag.png' mode="widthFix"></image>
+  <text>分享</text>
+</view>
+<button open-type='share' class='share_btyn'></button>

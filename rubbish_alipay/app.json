@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/location/location",
+    "pages/examination/examination",
+    "pages/special/special",
+    "pages/detail/detail",
+    "pages/download/download",
+    "pages/special_detail/special_detail"
+  ],
+  "window": {
+    "defaultTitle": "垃圾分类引导指南"
+  },
+  "tabBar": {
+    "textColor": "#515151",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#efefef",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "指南",
+        "icon": "/images/icon/guide.png",
+        "activeIcon": "/images/icon/guide_tag.png"
+      },
+      {
+        "pagePath": "pages/examination/examination",
+        "name": "测试",
+        "icon": "/images/icon/test.png",
+        "activeIcon": "/images/icon/test_tag.png"
+      },
+      {
+        "pagePath": "pages/special/special",
+        "name": "专题",
+        "icon": "/images/icon/special.png",
+        "activeIcon": "/images/icon/special_tag.png"
+      },
+      {
+        "pagePath": "pages/location/location",
+        "name": "城市",
+        "icon": "/images/icon/location.png",
+        "activeIcon": "/images/icon/location_tag.png"
+      }
+    ]
+  }
+}

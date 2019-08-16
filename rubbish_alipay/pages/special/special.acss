@@ -1,0 +1,42 @@
+.containers {
+  width: 100%;
+}
+
+.content {
+  font-size: 35rpx;
+  font-weight: bold;
+}
+
+.spec_name {
+  padding: 40rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+}
+
+.spec_name image {
+  display: flex;
+  width: 45rpx;
+  height: 30rpx;
+}
+
+.spec_left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.spec_left image {
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 30rpx;
+}
+.none_list {
+  text-align: center;
+  padding: 100rpx;
+  font-size: 30rpx;
+}

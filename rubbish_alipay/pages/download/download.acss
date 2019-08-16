@@ -1,0 +1,17 @@
+.content {
+  width: 90%;
+  margin: 20rpx auto 10rpx;
+  background: #fff;
+  border-radius: 15rpx;
+}
+.content image{
+  width: 100%;
+  border-radius: 15rpx;
+}
+button{
+  width: 40%;
+  border-radius: 30rpx;
+  font-size: 30rpx;
+  margin: 20rpx auto 40rpx;
+  letter-spacing: 2rpx;
+}
