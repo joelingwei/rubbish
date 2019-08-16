@@ -22,15 +22,22 @@ config.js —— 项目配置文件（包含Api接口host部分）
 
 ### 项目截图
 ![home](https://github.com/joelingwei/rubbish/blob/master/images/01.png)
+
 ![detail](https://github.com/joelingwei/rubbish/blob/master/images/02.png)
+
 ![examination](https://github.com/joelingwei/rubbish/blob/master/images/03.jpg)
+
 ![special](https://github.com/joelingwei/rubbish/blob/master/images/04.jpg)
+
 ![download](https://github.com/joelingwei/rubbish/blob/master/images/05.png)
+
 ![about](https://github.com/joelingwei/rubbish/blob/master/images/06.png)
 
 ### 欢迎扫码体验
 ![wechat](https://github.com/joelingwei/rubbish/blob/master/images/wechat.jpg)
+
 ![qq](https://github.com/joelingwei/rubbish/blob/master/images/qq.jpg)
+
 ![alipay](https://github.com/joelingwei/rubbish/blob/master/images/alipay.jpg)
 
 ### 关于作者
