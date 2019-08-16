@@ -1,0 +1,50 @@
+.containers {
+  width: 100%;
+}
+
+.content {
+  font-size: 30rpx;
+}
+
+.spec_name {
+  padding: 40rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+}
+
+.spec_name image {
+  display: flex;
+  width: 45rpx;
+  height: 30rpx;
+}
+
+.spec_left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.spec_left image {
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 30rpx;
+}
+.none_list {
+  text-align: center;
+  padding: 100rpx;
+  font-size: 30rpx;
+}
+.spec_content{
+  display: flex;
+  flex-direction: column
+}
+.spec_content_desc{
+  font-size: 20rpx;
+  color: gray;
+  margin-top: 10rpx;
+}

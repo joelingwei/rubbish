@@ -1,0 +1,45 @@
+<view class="container">
+  <view class="containers">
+    <view class="content">
+      <view class="spec_name" bindtap="changeJoeling" data-apid="wxe1e103707cde65e5">
+        <view class="spec_left">
+          <image src="../../images/avatar.jpg" mode='aspectFill'></image>
+          <view class="spec_content">
+            <text>袁小威博客</text>
+            <text class="spec_content_desc">没错，伪文艺男程序猿就是本人~</text>
+          </view>
+        </view>
+        <image src="../../images/jt.png" mode='aspectFill'></image>
+      </view>
+      <view class="spec_name" bindtap="changeJoeling" data-apid="wxc8bcb2b45c8ae74e">
+        <view class="spec_left">
+          <image src="../../images/liuguang.png" mode='aspectFill'></image>
+          <view class="spec_content">
+            <text>留光挽憶</text>
+            <text class="spec_content_desc">时光如水，回忆如墓，留光挽憶，老無憾矣~</text>
+          </view>
+        </view>
+        <image src="../../images/jt.png" mode='aspectFill'></image>
+      </view>
+      <view class="spec_name" bindtap="changeJoeling" data-apid="wxe7316a239184b3e8">
+        <view class="spec_left">
+          <image src="../../images/share_pic.jpg" mode='aspectFill'></image>
+          <view class="spec_content">
+            <text>小法工具</text>
+            <text class="spec_content_desc">一款好用的法律费用计算器~</text>
+          </view>
+        </view>
+        <image src="../../images/jt.png" mode='aspectFill'></image>
+      </view>
+    </view>
+  </view>
+  <view class='footer'>
+    本系统仅供参考，具体分类要求以属地专业管理部门为准。
+    <text class="dev_own" catchtap='changeJoeling' data-apid="wxe1e103707cde65e5">技术支持：袁小威</text>
+  </view>
+</view>
+<view class='share_btn'>
+  <image src='../../images/icon/guide_tag.png' mode="widthFix"></image>
+  <text>分享</text>
+</view>
+<button open-type='share' class='share_btyn'></button>
